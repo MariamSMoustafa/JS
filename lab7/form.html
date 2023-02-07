@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        
+    </style>
+    
+    </head>
+    <body>
+        <div class="all">
+          <div class="form">
+            <h2>Welcom To Bubbles Site</h2>
+            <form>
+                <input type="text" id="username" name="first-name" placeholder="username" required>
+                <input type="password" id="password" placeholder="password" required>
+                <input type="submit" value="Log In" onclick="login(elem)">
+              </form>
+          </div>
+        </div>
+          
+        <script>
+            function login(elem){
+              var n = document.getElementById("username");
+              var p = document.getElementById("password");
+    
+              if(n===""||p==="")
+              {
+                 alert("please enter user name and password");
+              }
+              else if(n==="admin"&&p==="123"){
+                 alert("welcome");
+              }
+              else{
+                 alert("you are not login")
+              }
+            }
+
+        </script>  
+    </body>
+    </html>
