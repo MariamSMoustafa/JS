@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="imgslider.css">
+    
+
+</head>
+<body>
+   <div class="container">
+    <div class="images">
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+        <img src="4.jpg">
+        <img src="5.jfif">
+        <img src="6.jfif">
+    </div>
+    <div onclick="side_slide(-1)" class="arrows prev"></div>
+    <div onclick="side_slide(1)" class="arrows next"></div>
+    <div class="btm-sliders">
+        <span onclick="btm_slide(1)"></span>
+        <span onclick="btm_slide(2)"></span>
+        <span onclick="btm_slide(3)"></span>
+        <span onclick="btm_slide(4)"></span>
+        <span onclick="btm_slide(5)"></span>
+        <span onclick="btm_slide(6)"></span>
+    </div>
+   </div>
+   <script src="imgSlider.js"></script>
+
+</body>
+</html>
