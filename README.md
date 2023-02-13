@@ -1,4 +1,4 @@
-Lab1
+# Lab1
 
 https://mariamsmoustafa.github.io/JS/lab1/lab1.html
 
