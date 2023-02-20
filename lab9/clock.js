@@ -26,6 +26,7 @@ function setAlarmTime(value){
     alarmTime=value;    //start the alarm
     console.log(alarmTime);
 }
+
 function setAlarm(){
     if(alarmTime){
         const current = new Date();  //The current time
@@ -40,6 +41,7 @@ function setAlarm(){
 }
 
 function clearAlarm(){  //if we turned off alarm or we set an alarm then i want to change it 
+   
     audio.pause();
     if(alarmTimeout){
         clearTimeout(alarmTimeout);
